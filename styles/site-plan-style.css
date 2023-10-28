@@ -4,9 +4,9 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
 @font-face {
-    font-family: 'Adventure';
+    font-family: Adventure;
     src: url('fonts/Adventure.otf') format('otf'),
-         url('fonts\Adventure Hollow.otf') format('otf');
+         url('fonts/Adventure Hollow.otf') format('otf');
 }
 
 @font-face {
@@ -28,7 +28,7 @@ Fonts are separated by a | */
   --accent2-color: #dbb200;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: Adventure, 'Adventure Hollow', Ariel;
+  --heading-font: 'Adventure', 'Anime Ace', Ariel;
   --paragraph-font: 'Blambot Fonts', 'Anime Ace', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
