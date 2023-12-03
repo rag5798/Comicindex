@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+@font-face {
+    font-family: Adventure;
+    src: url('fonts/Adventure.otf') format('otf'),
+         url('fonts/Adventure Hollow.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Blambot Fonts';
+    src: url('fonts\BADABB__.TTF') format('TTF');
+}
+
+@font-face {
+    font-family: 'Anime Ace';
+    src: url('fonts\animeace2bb_ot\animeace2_bld.otf') format('otf');
+}
+
+.content{
+    margin: 0 auto;
+    max-width: 1600px;
+    
+}
+
+body{
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3{
+    font-family: 'Adventure', 'Anime Ace', Ariel;
+}
+
+p, a{
+    font-family: 'Blambot Fonts', 'Anime Ace', sans-serif;;
+}
+
+header img{
+    width: 70%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #1619db;
+    display: grid;
+    grid-template-columns: 150px auto;
+    opacity: 0.9;
+    
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: #dbb200;
+    text-decoration: none;
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: #dbb200;
+    color: #db0016;
+}
+
+.hero img{
+    width: 100%;
+    max-height: 400px;
+}
+
+.box{
+    display: grid;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 99%;
+}
+
+.grid-item img{
+    width: 10%;
+}
+
+.grid-item {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.grid-item:nth-child(1) {
+    background-color: #5e80db;
+    color: #1619db;
+}
+.grid-item:nth-child(2) {
+    background-color: #5e80db;
+    color: #dbb200;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.ad{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+.ad-img{
+    margin: 10px auto;
+}
+
+.ad img{
+    width: 100px;
+}
+
+.ad-text{
+    margin: 5px auto;
+
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin-top: 150px;
+    background-color: #1619db;
+}
+
+footer img{
+    width: 100px;
+    margin: 25px;
+}
+
+.footer-img{
+    margin: auto;
+}
+
+footer a, footer p{
+    text-decoration: none;
+    color: #dbb200;
+}
+
+footer a:hover{
+    color: #db0016;
+}
+
+.text{
+    text-align: center;
+    margin: auto;
+}
+
+.collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.collection img{
+    width: 200px;
+    height: 300px;
+    margin-top: 25px;
+}
+
+.comic{
+    margin: auto;
+    text-align: center;
+}
